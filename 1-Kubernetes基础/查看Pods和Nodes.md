@@ -22,9 +22,7 @@ Pod是Kubernetes中的最小单位，当在Kubernetes上创建Deployment时，�
 
 ## Pod概述
 
-![](https://d33wubrfki0l68.cloudfront.net/fe03f68d8ede9815184852ca2a4fd30325e5d15a/98064/docs/tutorials/kubernetes-basics/public/images/module_03_pods.svg)
-
-
+![](https://d33wubrfki0l68.cloudfront.net/fe03f68d8ede9815184852ca2a4fd30325e5d15a/98064/docs/tutorials/kubernetes-basics/public/images/module_03_pods.svg)![](/assets/module_03_pods.svg)![](/assets/import.png)
 
 ## Node
 
@@ -46,15 +44,13 @@ Pod是Kubernetes中的最小单位，当在Kubernetes上创建Deployment时，�
 * **kubectl get -**
   列出资源
 * **kubectl describe**
-  - 显示资源的详细信息
+  * 显示资源的详细信息
 * **kubectl logs**
-  - 打印pod中的容器日志
+  * 打印pod中的容器日志
 * **kubectl exec**
-   - pod中容器内部执行命令
+  * pod中容器内部执行命令
 
 可以使用这些命令来查看应用程序何时部署、它们当前的状态是什么、它们在哪里运行以及它们的配置是什么。
 
 现在我们已经了解了更多关于集群组件和命令的信息，[接下来让我们来探究一下应用](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore-interactive/)。
-
-
 
